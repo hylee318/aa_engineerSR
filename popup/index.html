@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html style="min-width:500px;">
+<head>
+
+<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<h3>
+				EngineerSR - Version 7
+			</h3>
+		</div>
+	</div>
+			
+	<div class="row clearfix">
+	
+		<div class="col-md-12 column">
+			<form role="form">
+				<div class="form-group">
+					 <label for="engineerName">Enter Name (FirstName.LastName) or email address and click search</label><input type="text" class="form-control" id="engineerName" />
+				</div>
+				<button type="button" class="btn btn-default" id="search">search</button>
+				<p id = "ODM"></p>
+				<p id = "outage"></p>
+				<p id = "NRD"></p>
+				<p id = "Environment"></p>
+				<p id = "SRSev1_24x7"></p>
+				<p id = "SRList_Sev1MoreThan3"></p>
+				<p id = "SRList_Sev1AtLeast10"></p>
+				<p id = "SRList_NoUpdatedOver20"></p>
+				<p id = "SRList_AgedThan30"></p>
+				<script src="checkSR.js"></script>
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>

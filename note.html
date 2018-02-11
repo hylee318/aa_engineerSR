@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html style="min-width:500px;">
+<head>
+
+<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">	
+<h3>Manage Copy / Paste</h3>
+<hr />		
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<form role="form">
+				<div class="form-group">
+					 <label for="title">title:</label><input type="text" class="form-control" id="title" />
+				</div>
+				<div class="form-group">
+					 <label for="content">content:</label><textarea class="form-control" id="content"></textarea>
+				</div>
+				<button type="button" class="btn btn-default" id="add">add</button>
+				<button type="button" class="btn btn-default" id="clear_add">clear</button>
+				<hr />
+				
+				<table class="table table-striped table-hover table-bordered" id="title_content">
+				<tr><th>title</th><th>content</th><th>save / remove</th></tr></table>
+				<hr />
+				
+				<div class="form-group">
+				<label for="title">exported data:</label>
+				<textarea class="form-control" id="exportdata"></textarea>
+				</div>
+				<button type="button" class="btn btn-default" id="import">import</button>			
+				<button type="button" class="btn btn-default" id="export">export</button>
+				<button type="button" class="btn btn-default" id="clear_exportdata">clear</button>				
+				<script src="note.js"></script>
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
